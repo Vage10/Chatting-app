@@ -1,7 +1,7 @@
 
-# Talk-A-Tive
+# BlinkChat
 
-Talk-a-tive is a Full Stack Chatting App.
+Blink-chat is a Full Stack Chatting App.
 Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
 ## Tech Stack
 
@@ -10,15 +10,10 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 **Server:** Node JS, Express JS
 
 **Database:** Mongo DB
-  
-## Demo
 
-[https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
+## Getting started
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-## Run Locally
-
-Clone the project
+To run this project locally
 
 ```bash
   git clone https://github.com/piyush-eon/mern-chat-app
@@ -27,15 +22,15 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd mern-chat-app
+  cd chatting
 ```
 
-Install dependencies
+Install server dependencies
 
 ```bash
   npm install
 ```
-
+Install client dependencies
 ```bash
   cd frontend/
   npm install
@@ -58,24 +53,23 @@ Start the Client
 # Features
 
 ### Authenticaton
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
+* Secure signup and login functionality
 ### Real Time Chatting with Typing indicators
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
+* Real-time chat with typing indicators
 ### One to One chat
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
-### Search Users
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
+* Private messaging between two users
+### User Search
+* Search for users to start new chats
 ### Create Group Chats
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
+* Create, manage, and chat in groups
 ### Notifications 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
+* Receive real-time notifications for new messages
 ### Add or Remove users from group
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
+* Manage participants in group chats
 ### View Other user Profile
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
+* View profile information of other users
 ## Made By
 
-- [@Piyush-eon](https://github.com/piyush-eon)
+- Vageshwari Chaudhary
 
   
